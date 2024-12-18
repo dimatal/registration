@@ -1,0 +1,33 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+.main{
+  width: 100vw;
+  height: 1000px;
+  background-image: url('11.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  height: 114px;
+  padding: 20px 320px;
+}
+.ikonochki{
+  width: 379px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.select{
+  position: absolute;
+  width: 900px;
+  height: 900px;  
+  left: 1070px;
+  top: 631px;
+  z-index: 1;
+  }
